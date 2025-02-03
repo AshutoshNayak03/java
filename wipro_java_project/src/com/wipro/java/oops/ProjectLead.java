@@ -15,6 +15,21 @@ public class ProjectLead extends Employee{
 	 */
 	public ProjectLead() {
 		// TODO Auto-generated constructor stub
-	}
 
 }
+	public static void main(String a[]) {
+		/**
+		 * child object is instantiated from child constructor
+		 * parent class consumes the prop and behaviors of child class
+		 */
+		Employee employee= new ProjectLead();
+		employee.setId(0);
+		employee.setEmailId("test@test.com");
+		employee.setName("Arghya");
+		employee.setSalary(50000);
+		System.out.println(employee.getId());
+		System.out.println(employee.getEmailId());
+		System.out.println(employee.getName());
+		System.out.println(employee.getSalary());
+	}
+	}
