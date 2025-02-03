@@ -1,19 +1,18 @@
 /**
  * 
  */
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 /**
- * Parent class Employee
- * Child class is Developer
- * extends is a keyword
- */
-public class Developer extends Employee {
+* Parent class Employee
+* Child class is Manager
+* extends is a keyword
+*/
+public class Manager extends Employee {
 	
-	public Developer() {
+	public Manager() {
 		
 	}
-
 	/**
 	 * @param args
 	 */
@@ -22,11 +21,11 @@ public class Developer extends Employee {
 		 * child object is instantiated from child constructor
 		 * parent class consumes the prop and behaviors of child class
 		 */
-		Employee employee= new Developer();
-		employee.setId(1);
+		Employee employee= new Manager();
+		employee.setId(2);
 		employee.setEmailId("test@test.com");
-		employee.setName("Ashutosh");
-		employee.setSalary(20000);
+		employee.setName("Somu");
+		employee.setSalary(50000);
 		System.out.println(employee.getId());
 		System.out.println(employee.getEmailId());
 		System.out.println(employee.getName());
