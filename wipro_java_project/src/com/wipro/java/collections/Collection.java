@@ -1,7 +1,7 @@
 package com.wipro.java.collections;
 import java.util.*;
 
-public class Collections {
+public class Collection {
 
     public static void main(String[] args) {
         
