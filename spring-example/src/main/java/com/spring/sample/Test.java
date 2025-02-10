@@ -15,7 +15,7 @@ public class Test {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		ApplicationContext context = new ClassPathXmlApplicationContext("applicationcontext1.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationcontext.xml");
 
 	}
 
